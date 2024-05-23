@@ -29,9 +29,6 @@ def find_words(input_string: str, dictionary: list[str]) -> list[str]:
     5) If after looping through all the characters in the word and all char counters in the character counter map are
         greater than or equal to zero then add the word to valid words.
 
-    Pros:
-     - Since we're storing the character counter in a dict this allows us easy and quick look up times
-
     Time Complexity:
      - There'll be one iteration over the input_string to build the character counter dict, let's call this 'K'
      - We iterate over the list of words in the dictionary list, this is 'M'
